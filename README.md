@@ -3,7 +3,7 @@ KSP Subterranean Habitats Mod
 
 Regolith Augmenting Konstructive Equipment
 
-This is Mod for the Kerbal Space Program computer game. It features new parts desgined to advance your Kerbals exploration of other celestial bodies and offer them ne places to call their home away from home.
+This is Mod for the Kerbal Space Program computer game. It features new parts desgined to advance your Kerbals exploration of other celestial bodies and offer them new places to call their home away from home, deep beneath the surface.
 
 It is not finsihed yet...
 
