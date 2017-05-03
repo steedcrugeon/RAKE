@@ -1,0 +1,231 @@
+//USI-LS Module Manager Patch for GoingUnderground mod. Implementing the necessary modules and resources onto the RAKE parts.
+
+@PART[rakeGerbil]:FOR[USILifeSupport]
+{
+	RESOURCE
+	{
+		name = Supplies
+		amount = 1296
+		@maxAmount = 1296
+	}
+}
+
+@PART[rakeShrew]:FOR[USILifeSupport]
+{
+	RESOURCE
+	{
+		name = Supplies
+		amount = 86
+		maxAmount = 86
+	}
+}
+
+@PART[rakeNutria]:FOR[USILifeSupport]
+{
+	RESOURCE
+	{
+		name = Mulch
+		@amount = 0
+		@maxAmount = 900
+	}
+	RESOURCE
+	{
+		name = Fertilizer
+		@amount = 0
+		@maxAmount = 900
+	}
+	RESOURCE
+	{
+		name = Supplies
+		@amount = 0
+		@maxAmount = 900
+	}
+
+	MODULE 
+ 	{ 
+ 		name = ModuleResourceConverter_USI 
+ 		ConverterName = Agroponics 
+ 		tag = Agroponics 
+ 		StartActionName = Start Agroponics 
+ 		StopActionName = Stop Agroponics 
+ 		INPUT_RESOURCE 
+ 		{ 
+ 			ResourceName = Mulch 
+ 			Ratio =  0.00120000 
+ 		} 
+ 		INPUT_RESOURCE 
+ 		{ 
+ 			ResourceName = Fertilizer 
+ 			Ratio =  0.00012000 
+ 		} 
+ 		OUTPUT_RESOURCE 
+ 		{ 
+ 			ResourceName = Supplies 
+ 			Ratio = 0.00132000 
+ 			DumpExcess = False 
+ 		} 
+ 		INPUT_RESOURCE 
+ 		{ 
+ 			ResourceName = ElectricCharge 
+ 			Ratio = 2.64 
+ 		} 
+	}
+}
+
+// All Rake Parts with a recyler function deliberately start with less than their total Snack capacity.
+// It is assumed that there would not be sufficient space for all the Snacks until the part is deployed,
+// so only a portion (usually 10% except for Bilby) can be accomodated. Fill it up when you unpack. 
+
+@PART[rakeFerret, rakeArmadillo]:FOR[USILifeSupport]
+{
+	//This is calibrated for 6 kerbals at 60% efficiency
+	//(note that this is deliberat in terms of the Armadillo to reflect that it is designed
+	//for shift working, not permanent maximum capacity.
+	//Take into account the number of kerbals it should support.
+	MODULE 
+ 	{ 
+ 		name = ModuleLifeSupportRecycler 
+ 		CrewCapacity = 6 
+ 		RecyclePercent = .6 
+ 		ConverterName = Life Support 
+ 		tag = Life Support 
+ 		StartActionName = Start Life Support 
+ 		StopActionName = Stop Life Support 
+ 
+ 
+ 		INPUT_RESOURCE 
+ 		{ 
+ 			ResourceName = ElectricCharge 
+ 			Ratio = .5 
+ 		} 
+	}
+
+	RESOURCE
+	{
+		name = Mulch
+		amount = 0
+		maxAmount = 750
+	}
+	RESOURCE
+	{
+		name = Snacks
+		amount = 300
+		maxAmount = 3000
+	}
+}
+
+@PART[rakeBilby]:FOR[USILifeSupport]
+{
+	//This is calibrated for 4 kerbals at 60% efficiency
+	//
+	//Take into account the number of kerbals it should support.
+	MODULE 
+ 	{ 
+ 		name = ModuleLifeSupportRecycler 
+ 		CrewCapacity = 4 
+ 		RecyclePercent = .6 
+ 		ConverterName = Life Support 
+ 		tag = Life Support 
+ 		StartActionName = Start Life Support 
+ 		StopActionName = Stop Life Support 
+ 
+ 
+ 		INPUT_RESOURCE 
+ 		{ 
+ 			ResourceName = ElectricCharge 
+ 			Ratio = .5 
+ 		} 
+	}
+
+	RESOURCE
+	{
+		name = Mulch
+		amount = 0
+		maxAmount = 2000
+	}
+	// The Bilby Logisitics hub deliberately has more Snacks Capacity then would be typical 
+	// due to the nature of the part.
+	RESOURCE
+	{
+		name = Supplies
+		amount = 800
+		maxAmount = 8000
+	}
+}
+@PART[rakeAadvark]:FOR[USILifeSupport]
+{
+	//This is calibrated for 16 kerbals at 70% efficiency
+	//The Aadvark is designed as a colony Hub and has a slightyl more efficient recycler.
+	//Take into account the number of kerbals it should support.
+	MODULE 
+ 	{ 
+ 		name = ModuleLifeSupportRecycler 
+ 		CrewCapacity = 16 
+ 		RecyclePercent = .7 
+ 		ConverterName = Life Support 
+ 		tag = Life Support 
+ 		StartActionName = Start Life Support 
+ 		StopActionName = Stop Life Support 
+ 
+ 
+ 		INPUT_RESOURCE 
+ 		{ 
+ 			ResourceName = ElectricCharge 
+ 			Ratio = .5 
+ 		} 
+	}
+
+
+	RESOURCE
+	{
+		name = Mulch
+		amount = 0
+		maxAmount = 8500
+	}
+	RESOURCE
+	{
+		name = SUpplies
+		amount = 1700
+		maxAmount = 17000
+	}
+}
+
+@PART[rakeStoat, rakeMink]:FOR[USILifeSupport]
+{
+	//This is calibrated for 6 kerbals at 60% efficiency
+	//The Staot and mink modules are take have been deliberatley design to accomodate longer
+	//duration stay by Kerbals, hence the extra capacity of their recyclers
+	//Take into account the number of kerbals it should support.
+	MODULE 
+ 	{ 
+ 		name = ModuleLifeSupportRecycler 
+ 		CrewCapacity = 6 
+ 		RecyclePercent = .6 
+ 		ConverterName = Life Support 
+ 		tag = Life Support 
+ 		StartActionName = Start Life Support 
+ 		StopActionName = Stop Life Support 
+ 
+ 
+ 		INPUT_RESOURCE 
+ 		{ 
+ 			ResourceName = ElectricCharge 
+ 			Ratio = .5 
+ 		} 
+	}
+
+
+	RESOURCE
+	{
+		name = Mulch
+		amount = 0
+		maxAmount = 800
+	}
+	RESOURCE
+	{
+		name = Supplies
+		amount = 150
+		maxAmount = 1500
+	}
+}	
+
