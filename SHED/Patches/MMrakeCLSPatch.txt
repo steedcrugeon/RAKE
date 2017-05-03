@@ -1,0 +1,70 @@
+//ConnectedLivingSpace ModuleManager Patch
+ 
+ 
+@PART[rakeShrew, rakeGerbil]:NEEDS[ConnectedLivingSpace] 
+{ 
+	MODULE 	
+	{ 
+	name = ModuleConnectedLivingSpace 
+	passable = true 
+	surfaceAttachementsPassable
+	passablenodes = top
+	impassablenodes = bottom
+	} 
+} 
+ 
+@PART[rakeArmadillo]:NEEDS[ConnectedLivingSpace] 
+{ 
+	MODULE 	
+	{ 
+	name = ModuleConnectedLivingSpace 
+	passable = true 
+	surfaceAttachementsPassable
+	passablenodes = top, ExpansionNode1, ExpansionNode2, ExpansionNode3
+	impassablenodes = bottom
+	} 
+} 
+@PART[rakeBilby]:NEEDS[ConnectedLivingSpace] 
+{ 
+	MODULE 	
+	{ 
+	name = ModuleConnectedLivingSpace 
+	passable = true 
+	surfaceAttachementsPassable
+	passablenodes = top, ExpansionNode1, ExpansionNode2, ExpansionNode3, ExpansionNode4
+	impassablenodes = bottom
+	} 
+}
+@PART[rakeMongoose]:NEEDS[ConnectedLivingSpace] 
+{ 
+	MODULE 	
+	{ 
+	name = ModuleConnectedLivingSpace 
+	passable = true 
+	surfaceAttachementsPassable
+	passablenodes = top, ExpansionNode1, ExpansionNode2
+	impassablenodes = bottom
+	} 
+}
+@PART[rakeAadvark]:NEEDS[ConnectedLivingSpace] 
+{ 
+	MODULE 	
+	{ 
+	name = ModuleConnectedLivingSpace 
+	passable = true 
+	surfaceAttachementsPassable
+	passablenodes = top, ExpansionNode1, ExpansionNode2, ExpansionNode3, ExpansionNode4, ExpansionNode5, ExpansionNode6, ExpansionNode7, ExpansionNode8
+	impassablenodes = bottom
+	} 
+}
+@PART[rakeWeasel, rakeFerret, rakeStoat, rakeMink, rakeNutria]:NEEDS[ConnectedLivingSpace] 
+{ 
+	MODULE 
+	{ 
+	name = ModuleConnectedLivingSpace 
+	passable = true 
+	surfaceAttachmentsPassable = false
+	passablenodes = expansionNode
+	} 
+} 
+ 
