@@ -1,0 +1,155 @@
+PART
+{
+	name = rakeMongoose
+	module = Part
+	author = steedcrugeon
+	
+	MODEUL
+	{
+		model = SHED/Parts/RAKE/CoreModules/RAKE_Mongoose
+		texture = SHED/Assets/RAKE/ArmadilloExtTex
+		texture = SHED/Assets/RAKE/Moon_tilable_1024
+	}
+
+	
+	rescaleFactor = 1
+	NODE
+	{
+		name = topNode
+		transform = topNode
+		size = 1
+		method = FIXED_JOINT
+	}
+	NODE
+	{
+		name = bottomNode
+		transform = bottomNode
+		size = 1
+		method = FIXED_JOINT
+	}
+	NODE
+	{
+		name = ExpansionNode1
+		transform = ExpansionNode1
+		size = 0
+		method = FIXED_JOINT
+	}
+	NODE
+	{
+		name = ExpansionNode2
+		transform = ExpansionNode2
+		size = 0
+		method = FIXED_JOINT
+	}
+	
+	//mirrorRefAxis = 0, 0, -1
+	CrewCapacity = 6
+	TechRequired = ScienceTech
+	entryCost = 12000
+	cost = 4750
+	category = Science
+	subcategory = 0
+	title = 'Mongoose' RAKE Science Hub
+	manufacturer = Sphero-Hedron Engineering Dynamics
+	description = THIS IS A TEST PART
+	attachRules = 1,1,1,1,0
+	mass = 2.15
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.3
+	angularDrag = 2
+	crashTolerance = 10
+	breakingForce = 200
+	breakingTorque = 200
+	maxTemp = 1200
+	skinMaxTemp = 2100
+	emissiveConstant = 0.8
+	vesselType = Base
+	bulkheadProfiles = 2
+	tags = base contain outpost passenger experiment laboratory research science
+	INTERNAL
+	{
+	  	name = rakeMonInt
+	}
+
+	MODULE
+	{
+		name = ModuleScienceContainer
+		reviewActionName = Review Data
+		storeActionName = Store Experiments
+		collectActionName = Take Data
+		evaOnlyStorage = false
+		storageRange = 2
+		allowRepeatedSubjects = True
+	}
+	MODULE
+	{
+		name = ModuleScienceLab
+		containerModuleIndex = 0
+		dataStorage = 750
+		crewsRequired = 1
+		canResetConnectedModules = True
+		canResetNearbyModules = True
+		interactionRange = 5
+		SurfaceBonus = 0.1
+		ContextBonus = 0.25
+		homeworldMultiplier = 0.1
+		RESOURCE_PROCESS
+		{
+			name = ElectricCharge
+			amount = 10
+		}
+	}
+
+	MODULE
+	{
+		name = ModuleScienceConverter
+		dataProcessingMultiplier = 0.5 	// Multiplier to data processing rate and therefore science rate
+		scientistBonus = 0.25		//Bonus per scientist star - need at least one! So 0.25x - 2.5x 
+		researchTime = 7	    	//Larger = slower.  Exponential!
+		scienceMultiplier = 5		//How much science does data turn into?
+		scienceCap = 600	    	//How much science can we store before having to transmit?		
+		powerRequirement = 6		//EC/Sec to research
+		ConverterName = Research
+		StartActionName = Start Research
+		StopActionName = Stop Research
+	}
+
+	MODULE
+	{
+		name = ModuleKerbNetAccess
+		MinimumFoV = 17
+		MaximumFoV = 63
+		AnomalyDetection = 0
+		DISPLAY_MODES
+		{
+			Mode = Terrain
+			Mode = Biome
+		}
+		REQUIRED_EFFECTS
+		{
+			Effect = ScienceSkill
+		}
+	}
+
+	MODULE
+	{
+        	name = ModuleExperienceManagement
+        	costPerKerbal = 0
+	}
+
+	MODULE
+	{
+		name = FlagDecal
+		textureQuadName = flagTransform
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		animationName = DeployDrill
+		startEventGUIName = Commence Drilling
+		endEventGUIName = DO NOT USE
+		actionGUIName = Prepare Habitat
+	}	
+	
+}
