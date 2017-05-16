@@ -29,6 +29,6 @@ Unrealeased - Version 0.1
 
 # Credit where credit is due, thanks to:
 
-DiscoSledge - for the gratuitious use of many Artworks
-Beale - for the liberal use of some Tantares Props
-GregoxMun - for use of a Kerbal Suit Texture
+ - DiscoSledge; for the gratuitious use of many Artworks
+ - Beale; for the liberal use of some Tantares Props
+ - GregoxMun; for use of a Kerbal Suit Texture
