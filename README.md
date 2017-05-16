@@ -1,4 +1,4 @@
-#GoingUnderground
+# GoingUnderground
 
 KSP Subterranean Habitats Mod 
 
@@ -14,8 +14,8 @@ Please note it is still in BETA and feedback is welcomed.
 
 In order to support the functionailty of some of the PartModules the following Mods are REQUIRED:
 
- - USI Tools (this comes bundled the current version at times of release) 
-   the most up to date version can be found here: https://github.com/UmbraSpaceIndustries/UmbraSpaceIndustries/releases
+ - USI Tools (this comes bundled the current version at times of release)
+ the most up to date version can be found here: https://github.com/UmbraSpaceIndustries/UmbraSpaceIndustries/releases
 
 It is HIGHLY RECOMMENDED that you use GoingUndergounrd with the following mods:
 
