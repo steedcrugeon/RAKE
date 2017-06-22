@@ -23,12 +23,12 @@ It is HIGHLY RECOMMENDED that you use GoingUndergounrd with the following mods:
  - Raster Prop Monitor
  - Community Tech Tree
  
-N.B. None of these recommended mods are dependencies and the Mod has been designed to support being standalone. Module Manager is required for the implementation of RAKE if operating as a standalone.
+N.B. None of these recommended mods are dependencies. Module Manager is required for the implementation of RAKE if operating as a standalone.
 
 Unrealeased - Version 0.1
 
 # Credit where credit is due, thanks to:
 
  - DiscoSledge; for the gratuitious use of many Artworks
- - Beale; for the liberal use of some Tantares Props
+ - Beale; for the liberal re-use of some Tantares Props
  - GregoxMun; for use of a Kerbal Suit Texture
