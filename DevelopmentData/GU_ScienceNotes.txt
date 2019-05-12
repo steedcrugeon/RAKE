@@ -1,0 +1,502 @@
+General Science Notes for the GoingUndground Kerbal Space Program Mod
+
+These notes are for support of the development collaboration and references purposes.
+Notes are written based aorund KSP 1.6.1 (version used at time of development).
+No additional '.dll' files are required to use the science associated with this mod
+The design aim for GoingUndground is to be compatible with the 'Stock' game.
+
+Background: GoingUndground is a KSP mod which adds 'subterranean habitats' to the game
+which includes parts, and science! These are intended for mid - late game use.
+
+Three type of Science Definition File 'suffix'; Basic , Detailed and Exhaustive.
+It should be noted that for the purposes of this mod we are only intersted in 'SrfLanded'
+there will be no science conducted in space or atmospheric flight.
+
+--- Basic Biomes for Science Experiments ---
+
+Basic_KerbinSrfLanded
+Basic_MunSrfLanded
+Basic_MinmusSrfLanded
+Basic_MohoSrfLanded
+Basic_EveSrfLanded
+Basic_GillySrfLanded
+Basic_DunaSrfLanded
+Basic_IkeSrfLanded
+Basic_DresSrfLanded
+Basic_LaytheSrfLanded
+Basic_VallSrfLanded
+Basic_TyloSrfLanded
+Basic_BopSrfLanded
+Basic_PolSrfLanded
+Basic_EelooSrfLanded
+
+--- Detailed Biomes for Science Experiments ---
+
+Detailed_KerbinSrfLanded
+Detailed_MunSrfLanded
+Detailed_MinmusSrfLanded
+Detailed_MohoSrfLanded
+Detailed_EveSrfLanded
+Detailed_GillySrfLanded
+Detailed_DunaSrfLanded
+Detailed_IkeSrfLanded
+Detailed_DresSrfLanded
+Detailed_LaytheSrfLanded
+Detailed_VallSrfLanded
+Detailed_TyloSrfLanded
+Detailed_BopSrfLanded
+Detailed_PolSrfLanded
+Detailed_EelooSrfLanded
+
+--- Exhaustive Biomes for Science Experiments ---
+
+Exhaustive_KerbinSrfLandedIceCaps
+Exhaustive_KerbinSrfLandedNorthernIceShelf
+Exhaustive_KerbinSrfLandedSouthernIceShelf
+Exhaustive_KerbinSrfLandedGrasslands
+Exhaustive_KerbinSrfLandedHighlands
+Exhaustive_KerbinSrfLandedMountains
+Exhaustive_KerbinSrfLandedDeserts
+Exhaustive_KerbinSrfLandedTundra
+Exhaustive_KerbinSrfLandedShores
+Exhaustive_KerbinSrfLandedBadlands
+Exhaustive_KerbinSrfLandedLaunchPad
+Exhaustive_KerbinSrfLandedRunway
+Exhaustive_KerbinSrfLandedKSC
+Exhaustive_KerbinSrfLandedWater [NOT USED IN GOING UNDERGROUND MOD]
+
+Exhaustive_MunSrfLandedMidlands
+Exhaustive_MunSrfLandedNorthernBasin
+Exhaustive_MunSrfLandedEastCrater
+Exhaustive_MunSrfLandedNorthWestCrater
+Exhaustive_MunSrfLandedSouthWestCrater
+Exhaustive_MunSrfLandedFarsideCrater
+Exhaustive_MunSrfLandedCanyons
+Exhaustive_MunSrfLandedPolarCrater
+Exhaustive_MunSrfLandedPoles
+Exhaustive_MunSrfLandedPolarLowland
+Exhaustive_MunSrfLandedHighlands
+Exhaustive_MunSrfLandedHighlandCraters
+Exhaustive_MunSrfLandedMidlandCraters
+Exhaustive_MunSrfLandedEastFarsideCraters
+Exhaustive_MunSrfLandedTwinCraters
+
+Exhaustive_MinmusSrfLandedPoles
+Exhaustive_MinmusSrfLandedLowlands
+Exhaustive_MinmusSrfLandedMidlands
+Exhaustive_MinmusSrfLandedHighlands
+Exhaustive_MinmusSrfLandedSlopes
+Exhaustive_MinmusSrfLandedFlats
+Exhaustive_MinmusSrfLandedLesserFlats
+Exhaustive_MinmusSrfLandedGreatFlats
+Exhaustive_MinmusSrfLandedGreaterFlats
+
+Exhaustive_MohoSrfLandedNorthPole
+Exhaustive_MohoSrfLandedNorthernSinkholeRidge
+Exhaustive_MohoSrfLandedNorthernSinkhole
+Exhaustive_MohoSrfLandedHighlands
+Exhaustive_MohoSrfLandedMidlands
+Exhaustive_MohoSrfLandedMinorCraters
+Exhaustive_MohoSrfLandedCentralLowlands
+Exhaustive_MohoSrfLandedWesternLowlands
+Exhaustive_MohoSrfLandedSouthWesternLowlands
+Exhaustive_MohoSrfLandedSouthEasternLowlands
+Exhaustive_MohoSrfLandedCanyon
+Exhaustive_MohoSrfLandedSouthpole
+
+Exhaustive_EveSrfLandedPoles
+Exhaustive_EveSrfLandedLowlands
+Exhaustive_EveSrfLandedMidlands
+Exhaustive_EveSrfLandedHighlands
+Exhaustive_EveSrfLandedFoothills
+Exhaustive_EveSrfLandedPeaks
+Exhaustive_EveSrfLandedImpactEjecta
+Exhaustive_EveSrfLandedOlympus
+Exhaustive_EveSrfLandedCraters
+Exhaustive_EveSrfLandedExplodiumSea [NOT USED IN GOING UNDERGROUND MOD]
+Exhaustive_EveSrfLandedAkatsukiLake [NOT USED IN GOING UNDERGROUND MOD]
+Exhaustive_EveSrfLandedShallows [NOT USED IN GOING UNDERGROUND MOD]
+Exhaustive_EveSrfLandedCraterLake [NOT USED IN GOING UNDERGROUND MOD]
+Exhaustive_EveSrfLandedWesternSea [NOT USED IN GOING UNDERGROUND MOD]
+Exhaustive_EveSrfLandedEasternSea [[NOT USED IN GOING UNDERGROUND MOD]
+
+Exhaustive_GillySrfLandedLowlands
+Exhaustive_GillySrfLandedMidlands
+Exhaustive_GillySrfLandedHighlands
+
+Exhaustive_DunaSrfLandedPoles
+Exhaustive_DunaSrfLandedPolarHighlands
+Exhaustive_DunaSrfLandedPolarCraters
+Exhaustive_DunaSrfLandedHighlands
+Exhaustive_DunaSrfLandedMidlands
+Exhaustive_DunaSrfLandedLowlands
+Exhaustive_DunaSrfLandedCraters
+Exhaustive_DunaSrfLandedMidlandSea
+Exhaustive_DunaSrfLandedNorthEastBasin
+Exhaustive_DunaSrfLandedSouthernBasin
+Exhaustive_DunaSrfLandedNorthernShelf
+Exhaustive_DunaSrfLandedMidlandCanyon
+Exhaustive_DunaSrfLandedEasternCanyon
+Exhaustive_DunaSrfLandedWesternCanyon
+
+Exhaustive_IkeSrfLandedPolarLowlands
+Exhaustive_IkeSrfLandedMidlands
+Exhaustive_IkeSrfLandedLowlands
+Exhaustive_IkeSrfLandedEasternMountainRidge
+Exhaustive_IkeSrfLandedWesternMountainRidge
+Exhaustive_IkeSrfLandedCentralMountainRange
+Exhaustive_IkeSrfLandedSouthEasternMountainRange
+Exhaustive_IkeSrfLandedSouthPole
+
+Exhaustive_DresSrfLandedPoles
+Exhaustive_DresSrfLandedHighlands
+Exhaustive_DresSrfLandedMidlands
+Exhaustive_DresSrfLandedLowlands
+Exhaustive_DresSrfLandedRidges
+Exhaustive_DresSrfLandedImpactEjecta
+Exhaustive_DresSrfLandedImpactCrater
+Exhaustive_DresSrfLandedCanyons
+
+Exhaustive_LaytheSrfLandedPoles
+Exhaustive_LaytheSrfLandedShores
+Exhaustive_LaytheSrfLandedDunes
+Exhaustive_LaytheSrfLandedPeaks
+Exhaustive_LaytheSrfLandedCraterIsland
+Exhaustive_LaytheSrfLandedCrescentBay [NOT USED IN THE GOING UNDERGROUND MOD]
+Exhaustive_LaytheSrfLandedTheSagenSea [NOT USED IN THE GOING UNDERGROUND MOD]
+Exhaustive_LaytheSrfLandedShallows [NOT USED IN THE GOING UNDERGROUND MOD]
+Exhaustive_LaytheSrfLandedCraterBay [NOT USED IN THE GOING UNDERGROUND MOD]
+Exhaustive_LaytheSrfLandedDegrasseSea [NOT USED IN THE GOING UNDERGROUND MOD]
+
+Exhaustive_VallSrfLandedPoles
+Exhaustive_VallSrfLandedHighlands
+Exhaustive_VallSrfLandedMidlands
+Exhaustive_VallSrfLandedLowlands
+Exhaustive_VallSrfLandedMountains
+Exhaustive_VallSrfLandedNortheastBasin
+Exhaustive_VallSrfLandedNorthwestBasin
+Exhaustive_VallSrfLandedSouthernBasin
+Exhaustive_VallSrfLandedSouthernValleys
+
+Exhaustive_TyloSrfLandedHighlands
+Exhaustive_TyloSrfLandedMidlands
+Exhaustive_TyloSrfLandedLowlands
+Exhaustive_TyloSrfLandedMara
+Exhaustive_TyloSrfLandedMinorCraters
+Exhaustive_TyloSrfLandedGagarinCrater
+Exhaustive_TyloSrfLandedGrissomCrater
+Exhaustive_TyloSrfLandedGalileoCrater
+Exhaustive_TyloSrfLandedTychoCrater
+
+Exhaustive_BopSrfLandedPoles
+Exhaustive_BopSrfLandedSlopes
+Exhaustive_BopSrfLandedPeaks
+Exhaustive_BopSrfLandedValleys
+Exhaustive_BopSrfLandedRidges
+
+Exhaustive_PollSrfLandedPoles
+Exhaustive_PollSrfLandedLowlands
+Exhaustive_PollSrfLandedMidlands
+Exhaustive_PollSrfLandedHighlands
+
+Exhaustive_EelooSrfLandedPoles
+Exhaustive_EelooSrfLandedNorthernGlaciers
+Exhaustive_EelooSrfLandedMidlands
+Exhaustive_EelooSrfLandedLowlands
+Exhaustive_EelooSrfLandedIceCanyons
+Exhaustive_EelooSrfLandedHighlands
+Exhaustive_EelooSrfLandedCraters
+Exhaustive_EelooSrfLandedFrangipan
+Exhaustive_EelooSrfLandedBabbagePatch
+Exhaustive_EelooSrfLandedSouthernGlaciers
+Exhaustive_EelooSrfLandedMuGalcier
+
+--- Science PartModule Config Example ---
+
+MODULE
+	{
+		name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+	
+		experimentID = exampleScienceExperiment // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+	
+		experimentActionName = #autoLOC_MOD_000_experimentActionName // "Perfrom Experiment"
+		resetActionName = #autoLOC_MOD_001_resetActionName // "Reset Experiment"
+		
+		useStaging = False
+		useActionGroups = True
+		hideUIwhenUnavailable = False	
+		
+		xmitDataScalar = 0.45 // percentage of science value retained when 'transmitting' the data back to Kerbin
+		dataIsCollectable = True // Whether the Science data can be 'removed' from the experiment for storage elsewhere (capsule).
+		collectActionName = #autoLOC_MOD_002_collectActionName // "Collect Experiment Data"
+		interactionRange = 1.2 // How close the Kerbal muse be to interact with the Experiment
+		usageReqMaskInternal = 1 // What type of Kerbal can perform the experiment from within the craft it's attached to.
+		usageReqMaskExternal = 8 // What type of Kerbal can perform the expermient extenal to the experiment (outside the craft).
+		rerunnable = True // Can the expermient be done again without a scientist restting it.
+	}
+
+--- GoingUndground Science PartModules [MASTER] ---
+
+// Basic GU Crew Report (basicGUcrewReport)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = basicGUcrewReport // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0701 // Carry out basic sub-surface crew observation
+	resetActionName = #autoLOC_RAKE_0702 // Expunge observation records
+	reveiwAction Name = #autoLOC_RAKE_0703 // Review observation report
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 1 // 100% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0704 // Collect observation report
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 4 // Crew must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = True // Can the expermient be done again without a scientist reseting it.
+}	
+
+// Intermediate GU Crew Report (intGUcrewReport)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = intGUcrewReport // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0705 // Produce detailed sub-surface crew report
+	resetActionName = #autoLOC_RAKE_0706 // Clear deatiled report files
+	reveiwAction Name = #autoLOC_RAKE_0707 // Review detailed report
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 1 // 100% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0708 // Collect detailed report files
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 4 // Crew must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = True // Can the expermient be done again without a scientist reseting it.
+}	
+	
+// Advanced GU Crew Report (advGUcrewReport)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = advGUcrewReport // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0709 // Perform an in-depth sub-surface crew study
+	resetActionName = #autoLOC_RAKE_0710 // Delete in-depth crew study
+	reveiwAction Name = #autoLOC_RAKE_0711 // Review in-depth crew study
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 1 // 100% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0712 // Collect in-depth crew study
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 8 // A scientist must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = True // Can the experiment be done again without a scientist reseting it.
+}
+
+// Basic GU Mineralogy Report (basicGUmineral)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = basicGUmineral // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0713 // Conduct basic mineralogy survey
+	resetActionName = #autoLOC_RAKE_0714 // Discard luster and colour data
+	reveiwAction Name = #autoLOC_RAKE_0715 // Review mineral luster and colour data
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 0.4 // 40% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0716 // Collect mineral luster and colour data
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 4 // Crew must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = True // Can the experiment be done again without a scientist reseting it.
+}	
+
+// Intermediate GU Mineralogy Report (intGUmineral)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = intGUmineral // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0717 // Conduct intermediate mineralogy survey
+	resetActionName = #autoLOC_RAKE_0718 // Discard hardness and magnetism data
+	reveiwAction Name = #autoLOC_RAKE_0719 // Review mineral hardness and magnetism data
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 0.45 // 45% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0720 // Collect mineral hardness and magnetism data
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 4 // Crew must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = True // Can the experiment be done again without a scientist reseting it.
+}
+
+// Advanced GU Mineralogy Report (advGUmineral)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = advGUmineral // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0721 // Conduct advanced mineralogy survey
+	resetActionName = #autoLOC_RAKE_0722 // Discard mineral specific gravity and effervesence data
+	reveiwAction Name = #autoLOC_RAKE_0723 // Review mineral specific gravity and effervesence data
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 0.40 // 40% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0724 // Collect mineral specific gravity and effervesence data
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 8 // A scientist must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = False // Can the experiment be done again without a scientist reseting it.
+}
+
+// Expert GU Crystallography (exGUcrystal)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = exGUcrystal // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0725 // Conduct Crystallography Investigation
+	resetActionName = #autoLOC_RAKE_0726 // Delete investigation records
+	reveiwAction Name = #autoLOC_RAKE_0727 // Review Crystallography data
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 0.30 // 30% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0728 // Collect investigation records
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 8 // A scientist must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = False // Can the experiment be done again without a scientist reseting it.
+}
+
+// Basic GU Magnetotelluric Report (basicGU_MT)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = basicGU_MT // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0729 // Commence Magnetotelluric sounding
+	resetActionName = #autoLOC_RAKE_0730 // Clear sounding data files
+	reveiwAction Name = #autoLOC_RAKE_0731 // Review Magnetotelluric sounding data
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 0.50 // 50% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0732 // Collect sounding data files
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 4 // A scientist must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = True // Can the experiment be done again without a scientist reseting it.
+}
+
+// Intermediate GU Magnetotelluric Report (intGU_MT)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = intGU_MT // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0733 // Conduct basic Magnetotelluric survey
+	resetActionName = #autoLOC_RAKE_0734 // Discard survey report
+	reveiwAction Name = #autoLOC_RAKE_0735 // Review Magnetotelluric survey data
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 0.45 // 45% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0736 // Collect survey report
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 4 // A scientist must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = True // Can the experiment be done again without a scientist reseting it.
+}
+
+// Advanced GU Magnetotelluric Report (advGU_MT)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = advGU_MT // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0737 // Carry out advanced Magnetotelluric modelling
+	resetActionName = #autoLOC_RAKE_0738 // Format modelling data drive memory
+	reveiwAction Name = #autoLOC_RAKE_0739 // Review Magnetotelluric modelling data
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 0.40 // 40% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0740 // Collect modelling data storage drive
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 8 // A scientist must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = False // Can the experiment be done again without a scientist reseting it.
+}
+
+// Expert GU Seismic Report (exGUseismic)
+
+{
+	name = ModuleScienceExperiment	// Stock KSP ModuleScienceExperiment
+
+	experimentID = exGUseismic // unique ID calls to the corresponding science in the "ScienceDef.cfg" file
+
+	experimentActionName = #autoLOC_RAKE_0741 // Record local Seismic activity
+	resetActionName = #autoLOC_RAKE_0742 // Reset Seismographs
+	reveiwAction Name = #autoLOC_RAKE_0743 // Review Seismographic data
+	
+	useStaging = False
+	useActionGroups = False
+	hideUIwhenUnavailable = True	
+	
+	xmitDataScalar = 0.30 // 30% of science value retained when 'transmitting' the data back to Kerbin
+	dataIsCollectable = True // Science data can be 'removed' from the experiment for storage elsewhere.
+	collectActionName = #autoLOC_RAKE_0744 // Collect Seismograph records
+	situationMask = 1 // This experiment can only be run when vessel is  landed on the surface
+	usageReqMaskInternal = 8 // A scientist must be in this part to run the experiment
+	usageReqMaskExternal = -1 // This experiment cannot be run from outside.
+	rerunnable = False // Can the experiment be done again without a scientist reseting it.
+}

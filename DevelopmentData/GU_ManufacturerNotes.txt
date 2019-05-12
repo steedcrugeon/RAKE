@@ -1,0 +1,17 @@
+// Manufacture for GoingUnderground
+// These will need to be added to the localisation file but recorded here for reference.
+
+// Manufacturer: RegoTech Labs
+// Description: Highly experienced at playig in the mud
+// Usage: Simpler parts, early in the tech tree. Also for the Core Parts
+// Design: higly functionaly - 'Clunky, industrial'
+
+// Manufacturer: Burrows Science Division
+// Description: 
+// Usage: Expansion Modules (all)
+// Design: Scientific - 'Elaborate, near future'
+
+// Manufacturer: Koring Coporation
+// Description: 
+// Usage: big stuff, Late tree parts like the Hanger and Silo
+// Design: Heavy industrial - 'Complicated and Reliable, Heavy'
